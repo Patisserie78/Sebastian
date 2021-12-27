@@ -107,7 +107,7 @@ footer {
     height: auto;
     width: 100%;
     border: 10px solid rgb(214, 238, 238);
-    background-color:rgb(252, 233, 236)
+    background-image: linear-gradient( rgb(245, 13, 52), rgb(252, 150, 167), rgb(250, 201, 209));
     
     
        
