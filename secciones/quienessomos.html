@@ -11,36 +11,50 @@
 </head>
 <body> 
 <header>
-    <div class="header">
-
-    
-    <h1>PiPatisserie</h1>
-    <img src="../Multimedia/fotos/logo.png" alt="Logo principal" class="logoprincipal">
-    
-    </div>
-    
-    <div class="navheader">
-
-    
-    <nav class="navheader">
-        <ul>
-            <li class="bordernav1"><a href="../index.html">Inicio</a></li>
-            <li class="bordernav1"><a href="quienessomos.html">Quienes Somos</a></li>
-            <li class="bordernav1"><a href="producto.html">Producto</a></li>
-            <li class="bordernav1"><a href="contacto.html">Contacto</a></li>
-            <li class="bordernav1"><a href="comollego.html">Como Llego</a></li>
-        </ul>
-
-    </nav>
-    </div>
+    <!-- Navbar inicio--> 
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#"> <img src="../Multimedia/fotos/logo.png" alt= "logo">  PiPatisserie</a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../secciones/quienessomos.html">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../secciones/producto.html">producto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../secciones/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../secciones/comollego.html Llego.html">Como Llego</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- Navbar fin --> 
 </header>
-    <section>
-        <article>
-<h2>Quienes Somos</h2>
-<p>Nuestra pasión por la pastelería nace en el seno materno, recetas de mi abuela y mi madre que fueron dando vida a sabores con historia. Cada familia, cada amigo hicieron de estas piezas un valor distintivo. Disfrutar un momento único, ese que compartimos el otro, o lo hacemos simplemente un disfrute propio.</p>
 
-        </article>
-    </section>
+<section>
+<div class="container-fluid">
+    <h2>Quienes Somos</h2>    
+    <p>Nuestra pasión por la pastelería nace en el seno materno, recetas de mi abuela y mi madre que fueron dando vida a sabores con historia. Cada familia, cada amigo hicieron de estas piezas un valor distintivo. Disfrutar un momento único, ese que compartimos el otro, o lo hacemos simplemente un disfrute propio.
+    </p>
+  </div>
+
+</section>
+
+
 
 
 
@@ -65,7 +79,7 @@
         <div class="contacto">
             <H3>CONTACTO</H3>
 
-            <table border="1"cellspacing="10"cellpadding="10">
+            <table class="table" border="1"cellspacing="10"cellpadding="10">
                 <tr>
                     <th>Telefono</th>
                     <td>4735-1111</td>
