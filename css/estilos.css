@@ -1,94 +1,61 @@
-
-
-.navbar-brand img{
-    height: 50px;
+.navbar {
+  background-color: pink;
 }
 
-
-
-.nav-link{
-    color: turquoise !important;
-}    
-
-
-
-
-
-main{
-    background-image: url(../Multimedia/fotos/imagen\ principal\ de\ inicio.jpg);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    
-
+.navbar-brand img {
+  height: 50px;
 }
 
-p{
-    font-size: 40px;
-    color: white;
-    text-align:center;
-    
-    
-    
+.navbar .nav-link {
+  color: white;
+  font-size: 20px;
+}
+
+main {
+  background-image: url(../Multimedia/fotos/imagen\ principal\ de\ inicio.jpg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+p {
+  font-size: 40px;
+  color: white;
+  text-align: center;
 }
 
 footer {
-    color: rgb(6, 223, 201);
-    height: auto;
-    width: 100%;
-    border: 10px solid rgb(214, 238, 238);
-    background-image: linear-gradient( rgb(245, 13, 52), rgb(252, 150, 167), rgb(250, 201, 209));
-    
+  height: auto;
+  width: 100%;
+  border: 10px solid #d6eeee;
+  background-image: linear-gradient(#f50d34, #fc96a7, #fac9d1);
 }
 
 footer {
-    display: grid;
+  display: grid;
 }
-
 
 footer ul li {
-    
-    list-style: none;
-    
+  list-style: none;
 }
 
-footer a{
-    
-    text-decoration: none;
-    font-size: 20px;
-    color: turquoise;
-    
-    
+.navfooter a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
 }
 
-.contacto{
-    font-size: 20px;
+a:hover {
+  color: aqua;
 }
 
-h3{
-    font-size: 15px;
-    margin-left: 40px;
+.redes {
+  font-size: 20px;
+}
+.redes h3 {
+  color: white;
+  padding-left: 30px;
 }
 
-table  tr{
-    font-size: 15px;
-}
-
-table th{
-    font-size: 15px;
-}
-
-table td{
-    font-size: 15px;
-}
-
-
-.redes{
-    
-    font-size: 20px;
-}
-    
-    
-
-     
+/*# sourceMappingURL=estilos.css.map */
