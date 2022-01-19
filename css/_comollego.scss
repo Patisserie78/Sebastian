@@ -1,4 +1,6 @@
-body{
+/*inicio como llego*/
+
+.bodycomollego{
     height: 600px;
     background-image: url(../Multimedia/fotos/macarons\ fondo.jpg);
     background-size: center;
@@ -19,19 +21,25 @@ h2{
 
 footer {
     display: grid;
+
+  }
+  
+.comogrid{
+      background-color: pink;
   }
   
   table{
       color: white;
   }
-footer ul li {
+
+  .comonavfooter ul li {
     
     list-style: none;
     
     
 }
 
-.navfooter a{
+.comonavfooter a{
     
     text-decoration: none;
     font-size: 20px;
@@ -47,3 +55,6 @@ h3{
     color: white;
     padding-left: 20px;
 }
+
+
+/*fin como llego*/ 

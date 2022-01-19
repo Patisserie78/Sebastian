@@ -11,15 +11,14 @@
   font-size: 20px;
 }
 
-main {
+.index {
   background-image: url(../Multimedia/fotos/imagen\ principal\ de\ inicio.jpg);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background-size: cover;
   background-position: center;
   height: 600px;
 }
-
-p {
+.index p {
   font-size: 40px;
   color: white;
   text-align: center;
@@ -40,7 +39,7 @@ footer ul li {
   list-style: none;
 }
 
-.navfooter a {
+.indexnavfooter a {
   text-decoration: none;
   font-size: 20px;
   color: white;
@@ -56,6 +55,228 @@ a:hover {
 .redes h3 {
   color: white;
   padding-left: 30px;
+}
+
+/*incio quienes somos*/
+.bodyquienessomos {
+  height: 100vh;
+  width: 100%;
+  font-family: cursive;
+  background-image: url(../Multimedia/fotos/quienes\ somo.jpg);
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar {
+  background-color: pink;
+  font-size: 20px;
+  color: white;
+}
+
+section {
+  height: 500px;
+}
+section h2 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+section p {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: cursive;
+  color: black;
+}
+
+.quienesfooter {
+  display: grid;
+}
+
+.quienesfooter1 ul li {
+  list-style: none;
+}
+
+.quienesnavfooter1 a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+a:hover {
+  color: aqua;
+}
+
+.redes {
+  font-size: 20px;
+}
+
+h3 {
+  color: white;
+  padding-left: 30px;
+}
+
+/*fin quienes somos*/
+/*inicio Producto*/
+.mainproducto {
+  background-image: linear-gradient(#f50d34, #fc96a7, #fac9d1);
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.n-left {
+  height: 400px;
+  background-image: url(../Multimedia/fotos/cookies.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.n-left h2 {
+  color: black;
+}
+
+.n-rigth {
+  height: 400px;
+  background-image: url(../Multimedia/fotos/budines.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.n-rigth h2 {
+  color: black;
+}
+
+.n-center {
+  height: 400px;
+  background-image: url(../Multimedia/fotos/tortas.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.n-center h2 {
+  color: black;
+}
+
+footer {
+  color: #06e0ca;
+  height: auto;
+  width: 100%;
+  background-image: linear-gradient(#f50d34, #fc96a7, #fac9d1);
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+/*fin producto*/
+/*inicio como llego*/
+.bodycomollego {
+  height: 600px;
+  background-image: url(../Multimedia/fotos/macarons\ fondo.jpg);
+  background-size: center;
+  background-position: cover;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar {
+  font-size: 20px;
+}
+
+h2 {
+  color: white;
+}
+
+footer {
+  display: grid;
+}
+
+.comogrid {
+  background-color: pink;
+}
+
+table {
+  color: white;
+}
+
+.comonavfooter ul li {
+  list-style: none;
+}
+
+.comonavfooter a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+a:hover {
+  color: aqua;
+}
+
+h3 {
+  color: white;
+  padding-left: 20px;
+}
+
+/*fin como llego*/
+/*inicio contacto*/
+header {
+  background-color: pink;
+  color: white;
+  border: 5px solid #d6eeee;
+}
+
+.bodycontacto {
+  background-color: #fcdae0;
+  color: grey;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.navbar .nav-link {
+  color: white;
+  font-size: 20px;
+}
+
+footer {
+  display: grid;
+}
+
+footer.contactogrid {
+  background-color: #fcdae0;
+}
+
+.contactogrid ul li {
+  list-style: none;
+}
+
+.contactonavfooter a {
+  text-decoration: none;
+  font-size: 20px;
+  color: grey;
+}
+
+a:hover {
+  color: aqua;
+}
+
+.contactotabla {
+  width: 200px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

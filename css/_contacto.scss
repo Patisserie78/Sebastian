@@ -1,0 +1,51 @@
+/*inicio contacto*/
+
+header{
+    background-color: pink;
+    color: white;
+    border: 5px solid #d6eeee;
+}
+
+.bodycontacto{
+    background-color: rgb(252, 218, 224);
+    color: grey;
+    
+    
+}
+
+.navbar-brand img {
+    height: 50px;
+  }
+  
+.navbar .nav-link{
+    color: white;
+    font-size: 20px;
+
+} 
+
+
+footer {
+    display: grid;
+  }
+  
+  footer.contactogrid {
+    background-color: rgb(252, 218, 224);
+  }
+  .contactogrid ul li {
+    list-style: none;
+  }
+  
+  .contactonavfooter a {
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+    
+  }
+  
+  a:hover {
+    color: aqua;
+  }
+  
+  .contactotabla{
+    width: 200px;
+  }

@@ -1,5 +1,6 @@
+/*inicio Producto*/ 
 
-main{
+.mainproducto{
 
     background-image: linear-gradient( rgb(245, 13, 52), rgb(252, 150, 167), rgb(250, 201, 209));
 }
@@ -12,17 +13,24 @@ main{
 
 
 .nav-link{
-    color: turquoise !important;
+    color: white;
 
 }
 
 .n-left{
+    h2{
+        color:$color4;
+    }
     height: 400px;
     background-image: url(../Multimedia/fotos/cookies.jpg);
     background-size: cover;
     background-position: center;
+    
 }
 .n-rigth{
+    h2{
+        color:$color4;
+    }
     height: 400px;
     background-image: url(../Multimedia/fotos/budines.jpg);
     background-size: cover;
@@ -30,6 +38,8 @@ main{
 }
 
 .n-center{
+    h2{color:$color4;
+    }
     height: 400px;
     background-image: url(../Multimedia/fotos/tortas.jpg);
     background-size: cover;
@@ -55,7 +65,9 @@ footer a{
     
     text-decoration: none;
     font-size: 20px;
-    color: turquoise;
+    color: $color1;
     
     
 }
+
+/*fin producto*/ 

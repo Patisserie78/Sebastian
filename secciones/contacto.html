@@ -5,30 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <title>Contacto</title>
 </head>
-<body> 
+<body class="bodycontacto"> 
 <header>
-    <h1>PiPatisserie</h1>
-    <img src="../multimedia/fotos/logo.png" alt="imagen logo principal">
-    <nav>
-        <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="quienessomos.html">Quienes Somos</a></li>
-            <li><a href="producto.html">Producto</a></li>
-            <li><a href="comollego.html">Como Llego</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-
-    </nav>
-    <h2>Contacto</h2>
-    <img src="../multimedia/fotos/macarons fondo.jpg" alt="imagen de fondo">
+    
+     <!-- Navbar inicio--> 
+     <nav class="navbar navbar-expand-md navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#"> <img src="../Multimedia/fotos/logo.png" alt= "logo">  PiPatisserie</a>
+      
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quienessomos.html">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="producto.html">producto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comollego.html">Como Llego</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- Navbar fin --> 
+   
+    
+    
 </header>
 
+<h2>Contacto</h2>
 
 <form action=""></form>
 
-    <h2>Formulario</h2>
+    <h3>Formulario</h3>
 
 <label for="nombre1">Nombre</label>
 <input type="text"name"nombre1" required><br>
@@ -60,10 +85,11 @@ Pasteleria sin Tacc<input type="checkbox">
 </form>
 
 
-<hr>
 
-    <footer>
-        <nav>
+
+    <footer class="contactogrid">
+        <div>
+        <nav class="contactonavfooter">
             <ul>
             <li><a href="../index.html">Inicio</a></li>
             <li><a href="quienessomos.html">Quienes Somos</a></li>
@@ -72,11 +98,11 @@ Pasteleria sin Tacc<input type="checkbox">
             <li><a href="contacto.html">Contacto</a></li>
         
             </ul>
-            
+        </div>   
 
             <H3>CONTACTO</H3>
 
-            <table border="1"cellspacing="10"cellpadding="10">
+            <table class="contactotabla" border="1"cellspacing="10"cellpadding="10">
                 <tr>
                     <th>Telefono</th>
                     <td>4735-1111</td>
@@ -94,13 +120,17 @@ Pasteleria sin Tacc<input type="checkbox">
 
             </table>
 
+            <div class="redes">
+
+            
+
 
             <h3>Redes</h3>
             <img src="../multimedia/redes/instagram.png" alt="Instagram"><br>
 
             <img src="../multimedia/redes/facebook.png" alt="facebook">
             
-
+            </div> 
         
 
         </nav>
