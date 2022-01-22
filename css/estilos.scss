@@ -6,6 +6,16 @@ $tamaño1: 20px;
 $estilo: cursive;
 
 
+@import "_quienessomos";
+
+@import "_producto";
+
+@import "_comollego";
+
+@import "_contacto";
+
+
+
 .navbar{
     background-color: $color2;
     
@@ -94,11 +104,3 @@ a:hover{
     
 
      
-@import "_quienessomos";
-
-@import "_producto";
-
-@import "_comollego";
-
-@import "_contacto";
-

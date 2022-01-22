@@ -257,7 +257,7 @@ footer {
   display: grid;
 }
 
-footer.contactogrid {
+.contactogrid {
   background-color: #fcdae0;
 }
 
